@@ -46,5 +46,16 @@ ul.dropdown-menu {
 }
 
 
+.navbar .navbar-brand {
+    color: #d6d6d6;
+}
+
+.active a{
+	color: #d6d6d6; 
+}
+
+.nav1 a{
+	color: #d6d6d6; 
+}
 
 
