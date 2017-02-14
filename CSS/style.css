@@ -58,4 +58,10 @@ ul.dropdown-menu {
 	color: #d6d6d6; 
 }
 
+.navbar-toggle.collapsed .glyphicon-chevron-up:before {
+    content: "\e260" !important;
+}
 
+.navbar-toggle .glyphicon-chevron-up:before {
+    content: "\e114" !important;
+}
