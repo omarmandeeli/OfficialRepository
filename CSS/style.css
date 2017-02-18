@@ -1,5 +1,6 @@
-body { 
-  padding: 0px 0 0 0;
+html, body { 
+ 
+  
 }
 *{
 	margin: 0;
@@ -65,3 +66,109 @@ ul.dropdown-menu {
 .navbar-toggle .glyphicon-chevron-up:before {
     content: "\e114" !important;
 }
+
+/* ul li.nav1:hover {
+  color: red;
+  background-color: red;
+}*/
+
+.carousel-indicators {
+  top: 900px;
+}
+
+
+
+
+.grey-box1{
+	background-color: gray;
+	height: 400px;
+	margin-bottom: 10px;
+	font-size: 2em;
+	text-align: center;
+	padding: 80px;
+}
+.grey-box2{
+	background-color: gray;
+	height: 200px;
+	margin-bottom: 10px;
+	font-size: 2em;
+	text-align: center;
+	padding: 80px;
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+.carousel-caption h3 {
+		font-size: 4em;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+.carousel-caption h3 {
+		font-size: 4em;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+	.carousel-caption h3 {
+		font-size: 3em;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	.carousel-caption h3 {
+		font-size: 5em;
+	}
+}
+
+
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 0px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+	.carousel-caption h3 {
+		font-size: 2em;
+	}
+}
+
