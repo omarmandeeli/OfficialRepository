@@ -31,7 +31,7 @@ ul.dropdown-menu {
 @media (max-width: 992px) {
   body
   {
-    background:red;
+    background:grey;
   }
   .opaque-navbar {
     background-color: black;
@@ -54,7 +54,7 @@ ul.dropdown-menu {
 .active a{
 	color: #d6d6d6; 
 }
-
+	
 .nav1 a{
 	color: #d6d6d6; 
 }
