@@ -11,7 +11,20 @@ html, body {
 
 
 
+.container {
+	      width: 98% !important;
+max-width: none !important;
+  margin: auto;
+  overflow:auto;
 
+}
+
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
 
 .opaque-navbar {
     background-color: rgba(0,0,0,0.5);
@@ -48,15 +61,15 @@ ul.dropdown-menu {
 
 
 .navbar .navbar-brand {
-    color: #d6d6d6;
+    color: #fcfcfc;
 }
 
 .active a{
-	color: #d6d6d6; 
+	color: #fcfcfc; 
 }
 	
 .nav1 a{
-	color: #d6d6d6; 
+	color: #fcfcfc; 
 }
 
 .navbar-toggle.collapsed .glyphicon-chevron-up:before {
@@ -82,21 +95,32 @@ ul.dropdown-menu {
 .grey-box1{
 	background-color: gray;
 	height: 400px;
+	width: 500px;
 	margin-bottom: 10px;
 	font-size: 2em;
 	text-align: center;
 	padding: 80px;
 }
 .grey-box2{
-	background-color: gray;
+	background-color: red;
 	height: 200px;
-	margin-bottom: 10px;
+	width: 500px;
+	margin-top: 200px;
 	font-size: 2em;
 	text-align: center;
 	padding: 80px;
 
 }
 
+.item {
+
+	 background-color:rgba(0,0,0,0.5);
+}
+
+.item .active{
+
+	 background-color:rgba(0,0,0,0.5);
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
@@ -107,20 +131,42 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-/* STYLES GO HERE */
+.carousel-caption h3 {
+		font-size: 1em;
+	}
+	.carousel-caption p {
+		font-size: 1em;
+	}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-/* STYLES GO HERE */
+.carousel-caption h3 {
+		font-size: 2em;
+	}
+	.carousel-caption p {
+		font-size: 2em;
+	}
+}
+
+@media only screen
+and (max-width : 736px) {
+.carousel-caption h3 {
+		font-size: 1.5em;
+	}
+	.carousel-caption p {
+		font-size: 1.5em;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-/* STYLES GO HERE */
+.carousel-caption p {
+		font-size: 1em;
+	}
 }
 
 /* iPads (landscape) ----------- */
@@ -130,6 +176,9 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 .carousel-caption h3 {
 		font-size: 4em;
+	}
+	.carousel-caption p{
+		font-size: 2em;
 	}
 }
 
@@ -151,11 +200,23 @@ and (min-width : 1224px) {
 	}
 }
 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 900px) {
+	.carousel-caption h3 {
+		font-size: 3em;
+	}
+}
+
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
 	.carousel-caption h3 {
-		font-size: 5em;
+		font-size: 4em;
+
+	}
+	.carousel-caption p{
+		font-size: 1.5em;
 	}
 }
 
