@@ -1,7 +1,11 @@
-html, body { 
+body { 
  
-  
+  padding: 0;
+  margin: 0;
+  background-color: #121212;
+
 }
+
 *{
 	margin: 0;
 	padding: 0;
@@ -57,8 +61,15 @@ ul.dropdown-menu {
 .carousel-caption {
     top: 30%;
     bottom: auto;
-}
+    line-height: 1.5;
 
+  }
+.carousel-caption p {
+    top: 30%;
+    bottom: auto;
+    line-height: 1.5;
+    letter-spacing: -1px;
+  }
 
 .navbar .navbar-brand {
     color: #fcfcfc;
